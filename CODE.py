@@ -14,7 +14,7 @@ def calc(op, x, y):
         print("Invalid operation")
 
 # Test cases
-print(calc("add", 2, 3))        # Should be 5
+print(calc("add", 4, 3))        # Should be 5
 print(calc("divide", 10, 0))    # Should show error
 print(calc("divide", 10, 2))    # Should be 5.0, but returns None
-print(calc("power", 2, 3))      # Invalid op test
+print(calc("power", 8, 3))      # Invalid op test
